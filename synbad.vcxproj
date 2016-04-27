@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_allocator.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_360.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_3ds.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_ps3.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_ps3_spu.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_wii.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_win32.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_base.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_binary_search.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_console.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_console_3ds.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_console_ps3.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_console_psp.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_console_wii.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_console_win32.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_console_x360.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_debug.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_guid.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_int128.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_int256.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_int64.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_log.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_log_to_console.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_memory_std.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_qsort.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_slice.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_string_ascii.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_string_sprintf.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_string_sscanf.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_string_utf.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_tls.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_tree.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_uint128.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_uint256.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_uint64.cpp" />
+    <ClCompile Include="xbase\source\main\cpp\x_va_list.cpp" />
+    <ClCompile Include="xentry\source\main\cpp\x_entry_win32.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_actorcore.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_actorcreator.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_actordestroyer.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_actordirectory.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_address.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_allocatormanager.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_directory.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_framework.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_llfw_allocator.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_messagecache.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_messagesender.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_receiver.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_receiverdirectory.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_threadcollection.cpp" />
+    <ClCompile Include="xlang\source\main\cpp\x_threadpool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_base.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_console_win32.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_3ds.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_ps3.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_psp.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_wii.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_win32.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_x360.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_3ds.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_ps3.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_psp.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_wii.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_win32.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_x360.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_guid_inline.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_int128.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_int256.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_int64.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_3ds.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_ps3.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_psp.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_wii.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_win32.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_x360.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_log_to_console.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_rbtree15.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_std.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_uint128.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_uint256.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_uint64.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_allocator.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_base.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_binary_search.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_bit_field.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_carray.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_console.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_debug.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_double.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_endian.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_float.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_guid.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_handle.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_idx_allocator.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_integer.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_limits.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_log.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_memory_std.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_noncopyable.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_qsort.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_singleton.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_string_ascii.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_string_utf.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_target.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_tls.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_tree.h" />
+    <ClInclude Include="xbase\source\main\include\xbase\x_va_list.h" />
+    <ClInclude Include="xentry\source\main\include\xentry\x_entry.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Containers\x_intrusivelist.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Containers\x_intrusivequeue.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Containers\x_list.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Core\x_actoralignment.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Core\x_actorconstructor.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Core\x_actorcore.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Core\x_actorcreator.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Core\x_actordestroyer.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Debug\x_assert.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Directory\x_actordirectory.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Directory\x_directory.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Directory\x_receiverdirectory.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_blinddefaulthandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_blindfallbackhandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_defaultfallbackhandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_defaulthandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_fallbackhandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_idefaulthandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_ifallbackhandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_imessagehandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_ireceiverhandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_messagehandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_messagehandlercast.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_receiverhandler.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_receiverhandlercast.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\MessageCache\x_messagecache.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\MessageCache\x_pool.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_imessage.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_message.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_messagealignment.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_messagecast.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_messagecreator.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_messagesender.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_messagetraits.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\PagedPool\x_freelist.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\PagedPool\x_page.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\PagedPool\x_pagedpool.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\Win32\x_lock.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\Win32\x_monitor.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\Win32\x_mutex.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\Win32\x_thread.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\x_lock.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\x_monitor.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\x_mutex.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\x_thread.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\ThreadPool\x_threadcollection.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\ThreadPool\x_threadpool.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\private\x_basictypes.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_actor.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_actorref.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_address.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_align.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_allocatormanager.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_defaultallocator.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_defines.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_framework.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_iallocator.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_receiver.h" />
+    <ClInclude Include="xlang\source\main\include\xlang\x_register.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3962C5C8-A53A-46ED-8CF9-014B8B0522A1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>synbad</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;TARGET_PC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)xbase\source\main\include;$(SolutionDir)xlang\source\main\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;TARGET_PC;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)xbase\source\main\include;$(SolutionDir)xlang\source\main\include;$(SolutionDir)xentry\source\main\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

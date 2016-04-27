@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="xlang">
+      <UniqueIdentifier>{0dc9a3d2-c9c1-4422-b942-c79715be6767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private">
+      <UniqueIdentifier>{0dc9a3d2-c9c1-4411-b942-c79715be6767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\Containers">
+      <UniqueIdentifier>{90144ef8-9f42-48d2-b214-9e46e152d202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\Core">
+      <UniqueIdentifier>{55859075-9142-4c94-9e0f-5ab6126734f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\Debug">
+      <UniqueIdentifier>{e652092f-2490-4bdf-836e-ddc29d63d52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\Directory">
+      <UniqueIdentifier>{e0dbd851-843e-4965-a79d-52c3790fae0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\Handlers">
+      <UniqueIdentifier>{2e1e9661-2bb2-498a-90c5-8a1a66cc729a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\MessageCache">
+      <UniqueIdentifier>{238f7357-3aef-45b6-9b56-a04ee71e9c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\Messages">
+      <UniqueIdentifier>{d157e34c-1b87-45e8-84d9-b2b71ced2ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\PagedPool">
+      <UniqueIdentifier>{39787fde-c5a2-4580-9805-1bbf36fa5f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\Threading">
+      <UniqueIdentifier>{73d18568-f6d0-48ba-913c-bacbd3d9824c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\ThreadPool">
+      <UniqueIdentifier>{44511015-baf1-4836-99f7-54cc668bf199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xlang\private\Threading\Win32">
+      <UniqueIdentifier>{94b2af38-36ac-4f13-9181-c4df8a7d9778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xbase">
+      <UniqueIdentifier>{26c35d48-7ab2-414d-9933-ef2d4085a972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xbase\private">
+      <UniqueIdentifier>{26c35d48-7ab2-414d-9947-ef2d4085a972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xentry">
+      <UniqueIdentifier>{497bcd93-83ec-4f37-a429-40dd3ac2e1f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="xlang\source\main\cpp\x_actorcore.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_actorcreator.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_actordestroyer.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_actordirectory.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_address.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_allocatormanager.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_directory.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_framework.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_llfw_allocator.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_messagecache.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_messagesender.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_receiver.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_receiverdirectory.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_threadcollection.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xlang\source\main\cpp\x_threadpool.cpp">
+      <Filter>xlang</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_allocator.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_3ds.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_360.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_ps3.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_ps3_spu.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_wii.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_allocator_system_win32.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_base.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_binary_search.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_console.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_console_3ds.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_console_ps3.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_console_psp.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_console_wii.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_console_win32.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_console_x360.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_debug.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_guid.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_int64.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_int128.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_int256.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_log.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_log_to_console.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_memory_std.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_qsort.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_string_ascii.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_string_sprintf.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_string_sscanf.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_string_utf.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_tls.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_tree.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_uint64.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_uint128.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_uint256.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_va_list.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xbase\source\main\cpp\x_slice.cpp">
+      <Filter>xbase</Filter>
+    </ClCompile>
+    <ClCompile Include="xentry\source\main\cpp\x_entry_win32.cpp">
+      <Filter>xentry</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xlang\source\main\include\xlang\x_actor.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\x_actorref.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\x_address.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\x_align.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\x_allocatormanager.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\x_defaultallocator.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\x_defines.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\x_framework.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\x_iallocator.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\x_receiver.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\x_register.h">
+      <Filter>xlang</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\x_basictypes.h">
+      <Filter>xlang\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Containers\x_intrusivelist.h">
+      <Filter>xlang\private\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Containers\x_intrusivequeue.h">
+      <Filter>xlang\private\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Containers\x_list.h">
+      <Filter>xlang\private\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Core\x_actoralignment.h">
+      <Filter>xlang\private\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Core\x_actorconstructor.h">
+      <Filter>xlang\private\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Core\x_actorcore.h">
+      <Filter>xlang\private\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Core\x_actorcreator.h">
+      <Filter>xlang\private\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Core\x_actordestroyer.h">
+      <Filter>xlang\private\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Debug\x_assert.h">
+      <Filter>xlang\private\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\ThreadPool\x_threadcollection.h">
+      <Filter>xlang\private\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\ThreadPool\x_threadpool.h">
+      <Filter>xlang\private\ThreadPool</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\x_lock.h">
+      <Filter>xlang\private\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\x_monitor.h">
+      <Filter>xlang\private\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\x_mutex.h">
+      <Filter>xlang\private\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\x_thread.h">
+      <Filter>xlang\private\Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\Win32\x_lock.h">
+      <Filter>xlang\private\Threading\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\Win32\x_monitor.h">
+      <Filter>xlang\private\Threading\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\Win32\x_mutex.h">
+      <Filter>xlang\private\Threading\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Threading\Win32\x_thread.h">
+      <Filter>xlang\private\Threading\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\PagedPool\x_freelist.h">
+      <Filter>xlang\private\PagedPool</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\PagedPool\x_page.h">
+      <Filter>xlang\private\PagedPool</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\PagedPool\x_pagedpool.h">
+      <Filter>xlang\private\PagedPool</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_imessage.h">
+      <Filter>xlang\private\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_message.h">
+      <Filter>xlang\private\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_messagealignment.h">
+      <Filter>xlang\private\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_messagecast.h">
+      <Filter>xlang\private\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_messagecreator.h">
+      <Filter>xlang\private\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_messagesender.h">
+      <Filter>xlang\private\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Messages\x_messagetraits.h">
+      <Filter>xlang\private\Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\MessageCache\x_messagecache.h">
+      <Filter>xlang\private\MessageCache</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\MessageCache\x_pool.h">
+      <Filter>xlang\private\MessageCache</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_blinddefaulthandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_blindfallbackhandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_defaultfallbackhandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_defaulthandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_fallbackhandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_idefaulthandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_ifallbackhandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_imessagehandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_ireceiverhandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_messagehandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_messagehandlercast.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_receiverhandler.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Handlers\x_receiverhandlercast.h">
+      <Filter>xlang\private\Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Directory\x_actordirectory.h">
+      <Filter>xlang\private\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Directory\x_directory.h">
+      <Filter>xlang\private\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="xlang\source\main\include\xlang\private\Directory\x_receiverdirectory.h">
+      <Filter>xlang\private\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_allocator.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_base.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_binary_search.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_bit_field.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_carray.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_console.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_debug.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_double.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_endian.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_float.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_guid.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_handle.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_idx_allocator.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_integer.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_limits.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_log.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_memory_std.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_noncopyable.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_qsort.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_singleton.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_string_ascii.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_string_utf.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_target.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_tls.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_tree.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\x_va_list.h">
+      <Filter>xbase</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_base.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_console_win32.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_3ds.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_ps3.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_psp.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_wii.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_win32.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_double_inline_x360.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_3ds.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_ps3.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_psp.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_wii.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_win32.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_float_inline_x360.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_guid_inline.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_int64.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_int128.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_int256.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_3ds.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_ps3.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_psp.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_wii.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_win32.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_integer_inline_x360.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_log_to_console.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_rbtree15.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_std.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_uint64.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_uint128.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xbase\source\main\include\xbase\private\x_uint256.h">
+      <Filter>xbase\private</Filter>
+    </ClInclude>
+    <ClInclude Include="xentry\source\main\include\xentry\x_entry.h">
+      <Filter>xentry</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
