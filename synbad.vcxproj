@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DHT.cpp" />
+    <ClCompile Include="IO.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="P2P.cpp" />
     <ClCompile Include="xbase\source\main\cpp\x_allocator.cpp" />
     <ClCompile Include="xbase\source\main\cpp\x_allocator_system_360.cpp" />
     <ClCompile Include="xbase\source\main\cpp\x_allocator_system_3ds.cpp" />

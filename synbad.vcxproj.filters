@@ -208,6 +208,9 @@
       <Filter>xentry</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="P2P.cpp" />
+    <ClCompile Include="DHT.cpp" />
+    <ClCompile Include="IO.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="xlang\source\main\include\xlang\x_actor.h">
