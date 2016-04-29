@@ -83,8 +83,8 @@ namespace IO
 			xcore::dirpath	mDepotPath;
 			file_t*			mBinFiles;
 
-			file_t			open(void* hash);
-			void			close(file_t);
+			file_t*			open(void* hash);
+			void			close(file_t*);
 		};
 
 	};

@@ -211,6 +211,7 @@
     <ClCompile Include="P2P.cpp" />
     <ClCompile Include="DHT.cpp" />
     <ClCompile Include="IO.cpp" />
+    <ClCompile Include="SYN.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="xlang\source\main\include\xlang\x_actor.h">
@@ -570,5 +571,8 @@
     <ClInclude Include="xentry\source\main\include\xentry\x_entry.h">
       <Filter>xentry</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>

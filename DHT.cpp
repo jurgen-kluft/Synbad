@@ -11,6 +11,14 @@ namespace DHT
 
 	// ----------------------------------------------------------------------------------------------------------
 	// ----------------------------------------------------------------------------------------------------------
+	// What kind of DHT do we want here and why ?:
+	// - Symphony
+	// - Kademlia
+	// - Chord
+	// 
+	// Why a DHT ?
+	// To be connected into a structured mesh and use it to communicate with neighbors only to synchronize
+	// data.
 
 	// Periodic tick
 	struct OnTick

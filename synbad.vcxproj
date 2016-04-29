@@ -23,6 +23,7 @@
     <ClCompile Include="IO.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="P2P.cpp" />
+    <ClCompile Include="SYN.cpp" />
     <ClCompile Include="xbase\source\main\cpp\x_allocator.cpp" />
     <ClCompile Include="xbase\source\main\cpp\x_allocator_system_360.cpp" />
     <ClCompile Include="xbase\source\main\cpp\x_allocator_system_3ds.cpp" />
@@ -197,6 +198,9 @@
     <ClInclude Include="xlang\source\main\include\xlang\x_receiver.h" />
     <ClInclude Include="xlang\source\main\include\xlang\x_register.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{3962C5C8-A53A-46ED-8CF9-014B8B0522A1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -208,7 +212,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>NotSet</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -267,7 +271,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;TARGET_PC;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)xbase\source\main\include;$(SolutionDir)xlang\source\main\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)xbase\source\main\include;$(SolutionDir)xlang\source\main\include;$(SolutionDir)xentry\source\main\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
